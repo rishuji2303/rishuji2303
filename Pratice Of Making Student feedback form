@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with css</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+<body>
+    <div id="one">
+        <div id="two">  Sign Up... </div>
+        <div id="three">
+            <label for="name"> First Name :</label>
+            <input type="text" name="name" value="" id="" placeholder="Enter first name " >
+            <br><br>
+            <label for="last name" >Last Name :</label>
+            <input type="text" name="name" value="" id="" placeholder="Enter last name ">
+            <br><br>
+            <label for="Date" > Date of birth : </label>
+            <input type="date" id="" value="" name=""> 
+
+            <br><br>
+            
+            <label for="gender"> Gender :</label>
+            <input type="radio" value="male" name="gender" id="" >Male 
+            <input type="radio" value="female" name="gender" id="">female
+
+            <br><br>
+
+            <label for="country">Country :</label>
+            <select for="country" >
+                <option value="india">India </option>
+                <option value="Pakistas">pakistan</option>
+                <option value="sri lanka">lanka</option>
+                <option value="nepal">Nepal</option>
+            </select>
+            <br><br>
+            <label for="email">E-mail :</label>
+            <input type="email" id="" value="" name="email" placeholder="Enter E-mail">
+            <br><br>
+
+            <label for="phone number"> Phone Number :</label>
+            <input type="number" id="" value="" name="" placeholder="Enter Phone Number " >
+
+            <br><br>
+            <label for="password">Password :</label>
+            <input type="password" id="" name="password" value="" placeholder="Enter Password">
+
+            <br><br>
+            <label for="password">Conform Password :</label>
+            <input type="password" id="" name="" value="" placeholder="Enter Conform Password">
+
+            <br><br>
+            <input type="checkbox" name="" id="" value=""  >I Agree to thee Terms of use 
+        </div>
+        <div id="four">
+            <button id="button">login....  </button> 
+            <button id="buttontwo">Cancel  </button> 
+        </div>
+    </div>
+</body>
+</html>
