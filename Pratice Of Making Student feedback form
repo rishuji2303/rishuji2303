@@ -6,6 +6,54 @@
     <title>Form with css</title>
     <link rel="stylesheet" href="form2.css">
 </head>
+<style>
+    #one{
+    width: 810px;
+    height: 500px;
+    border: 3px solid black;
+}
+h1{
+
+}
+#two{
+    border: 1px solid darkred;
+    margin: 0;
+    padding: 3px;
+    width: 805px;
+    height: 35px;
+    background-color: yellow;
+}
+#three{
+    padding: 5px;
+    border: 1px solid black;
+    width: 800px;
+    height: 375px;
+    background-color:darkblue;
+    color: white;
+    text-align: center;
+}
+#four{
+   width: 810px;
+   height: 70px;
+   border: 1px solid black;
+   background-color: orange;
+   text-align: center;
+}
+#button{
+    margin: 15px;
+    padding: 5px;
+    height: 25px;
+    width: 100px;
+    background-color: green;
+}
+#buttontwo{
+    margin: 15px;
+    padding: 5px;
+    height: 25px;
+    width: 100px;
+    background-color: red;    
+}
+</style>
 <body>
     <div id="one">
         <div id="two">  Sign Up... </div>
